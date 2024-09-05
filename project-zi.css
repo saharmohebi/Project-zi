@@ -3,14 +3,33 @@
     padding: 0px;
     margin: 0px;
 }
+:root{
+    --erste-background-color:#D8D9F8 ;
+    --zweite-background-color: #FFFFFF;
+    --dritte-background-color:#F5F8FF;
+    --border-color: #6A29FF;
+}
+body{
+    background-color: var(--erste-background-color);
+}
 .main{
-    display: flex;
-    flex-direction: row;
+display: flex;
+flex-direction: row;
+justify-content :space-between;
+border: 1px;
+border-radius: 32px;
+background-color: var(--zweite-background-color);
+width: 95%;
+padding: 30px;
+margin: 30px;
 }
 .left{
-
+    
 }
 .mittel{
+    border: 1px;
+    background-color: var(--dritte-background-color);
+    width: 50%;
 
 }
 .right{
